@@ -1,0 +1,10 @@
+<ejs-richtexteditor
+  #customRTE
+  [toolbarSettings]="tools"
+  [value]="value"
+  [autoSaveOnIdle]="true"
+  [saveInterval]="0"
+  (change)="onEditorChange($event)"
+  [enabled]="!isDisabled"
+  locale="it"
+></ejs-richtexteditor>
