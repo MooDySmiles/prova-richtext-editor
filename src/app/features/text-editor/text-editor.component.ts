@@ -9,6 +9,7 @@ import {
 } from '@syncfusion/ej2-angular-richtexteditor';
 import { L10n } from '@syncfusion/ej2-base';
 
+// Loading italian translations
 L10n.load({
   it: {
     richtexteditor: {
@@ -31,7 +32,7 @@ L10n.load({
       createTable: 'Crea tabella',
       clearFormat: 'Cancella formattazione',
       // Not working
-      alignmentAlignLeft: 'A sinistra', // how to set dropdown element translation?
+      alignmentAlignLeft: 'A sinistra', // this is not working either, how to set dropdown element translation?
       numberedList: 'Elenco numerato',
       bulletedList: 'Elenco puntato',
       increaseIndent: 'Aumenta il rientro',

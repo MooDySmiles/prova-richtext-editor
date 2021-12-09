@@ -1,12 +1,12 @@
-<h1>Nuovo edito? Nuovo editor</h1>
+<h1>Editor</h1>
 <div [formGroup]="form">
   <app-text-editor formControlName="editor"></app-text-editor>
   <!-- <ejs-richtexteditor formControlName="editor"></ejs-richtexteditor> -->
-  <div><button (click)="onSubmit()">Ciao</button></div>
+  <p><button (click)="onSubmit()">Submit</button></p>
 </div>
 
 <hr />
-<h2>Editor value? Editor value</h2>
+<h2>Editor value</h2>
 <p>
   {{ form.get("editor")?.value ?? "" }}
 </p>
